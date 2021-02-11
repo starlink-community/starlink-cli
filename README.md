@@ -1,4 +1,4 @@
-This is a basic command line interface that demonstrates using the GRPC API. 
+This is a basic command line interface that demonstrates using the [golang GRPC API](starlink-community/starlink-grpc-go).
 
 The API is reused between dishy and the wifi router, however both servers do not implement all the APIs. The `basic-cli` demonstrates that the `status` API works on dishy, but not on the router. Conversely, `ping` works on the router, but not dishy. 
 
