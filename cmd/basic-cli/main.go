@@ -39,6 +39,8 @@ func main() {
 	switch req {
 	case "status":
 		in.Request = &pb.Request_GetStatus{}
+	case "history":
+		in.Request = &pb.Request_GetHistory{}
 	case "ping":
 		in.Request = &pb.Request_GetPing{}
 	default:
